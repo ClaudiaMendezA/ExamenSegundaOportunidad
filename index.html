@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Examen Segundo Parcial</title>
+    <meta name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/listar.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onload="agregarRenglon('tablaDatos')">
+
+
+
+    <div class="container" id="main-container">
+
+        <div class="container" id="buscar">
+            <input type="text" id="paises" placeholder="Buscar un pais">
+            <button onclick="filtrar('tablaDatos')" class="btn btn-info">Filtrar</button>
+            <br><br>
+        </div>
+        <div class="row">
+
+            <table id="tablaDatos" class="table">
+                <thead>
+                    <tr>
+                        <th width="25%">Pais</th>
+                        <th width="25%">Casos confirmados</th>
+                        <th width="25%">Defunciones</th>
+                        <th width="25%">Recuperados</th>
+                        <th width="20%">Detalle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

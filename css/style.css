@@ -1,0 +1,45 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buscar {
+  float: right;
+}
+
+table {
+  background-color: rgb(124, 122, 122);
+  text-align: center;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  padding: auto;
+}
+
+thead {
+  background-color: #030303;
+  border-radius: 20%;
+  border-bottom: solid 5px #ffffff;
+  color: white;
+}
+ {
+}
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+tr:hover td {
+  background-color: #364496;
+  color: white;
+}
+
+.btnDetalle {
+  width: 40%;
+  height: auto;
+  display: block;
+}
